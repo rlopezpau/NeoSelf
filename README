@@ -1,0 +1,23 @@
+# NeoSelf
+
+App móvil para capturar una foto diaria y generar un time-lapse de evolución personal. Versión inicial con Flutter y Firebase (Auth + Storage).
+
+## Características
+- Captura diaria de foto con cámara nativa.
+- Previsualización y decisión: aceptar o repetir.
+- Guardado en Firebase Storage con metadatos de fecha.
+- Listado cronológico y generación posterior de vídeo (roadmap).
+
+## Stack
+Flutter/Dart · Firebase (Auth, Storage) · Material 3
+
+## Requisitos previos
+- Flutter SDK instalado
+- Cuenta de Firebase con proyecto creado
+- Archivo `google-services.json` (Android) y `GoogleService-Info.plist` (iOS)
+
+## Instalación
+```bash
+git clone https://github.com/rlopezpau/neoself.git
+cd neoself
+flutter pub get
